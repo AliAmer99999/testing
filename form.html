@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+
+
+    <form target="_blanc" method="post">
+        <div>
+            <input type="hidden" value="lkdsajklkjds" name="test">
+            <div>
+                <label for="name">Username</label>
+                <input 
+                class="inp" 
+                type="text" 
+                required 
+                placeholder="Write Ur Name" 
+                id="name" 
+                name="name" 
+                autofocus>
+            </div>
+            <br>
+            <div>
+                <label for="pass">password</label>
+                <input 
+                id="pass"
+                class="inp" 
+                type="password" 
+                required 
+                placeholder="Write A Hard Password" 
+                name="pass"
+                minlength="10"
+                maxlength="25"
+                >
+            </div>
+            <br>
+            <div>
+                <label for="em">Email</label>
+                <input id="em" required placeholder="example@gmail.com" type="email">
+            </div>
+            <br>
+            <div>
+                <input list="lang" name="list">
+                <datalist id="lang">
+                    <option value="python">
+                    <option value="c">
+                    <option value="c++">
+                    <option value="php">
+                </datalist>
+            </div>
+            <br>
+            <input class="inp" type="mail" value="ali@amer.com" name="mail" readonly>
+            <br>
+            <br>
+            <input value="this input is disabled" name="disabled_input" disabled>
+            <br>
+            <br>
+            <hr>
+            <input class="senda" type="submit" value="send">
+            <hr>
+            <input type="reset" value="Reset">
+            <br>
+            <br>
+            <div>
+                <label name="upload" for="file">Upload</label>
+                <input id="file" type="file">
+            </div>
+            <br>
+            <div>
+                <label name="search" for="search">search</label>
+                <input id="search" type="search">
+            </div>
+            <br>
+            <div>
+                <label name="url" for="url">Enter a url</label>
+                <input id="url" type="url">
+            </div>
+            <div>
+                <br>
+                <label >Color</label>
+                <input type="color" name="Color">
+                <input type="range" min="0" max="100" step="50">
+                <br>
+                <br>
+                <div>
+                    <label for="num">Number</label>
+                    <input type="number" min="10" max="500" name="number" id="num">
+                </div>
+            </div>
+            <hr>
+            <div>
+                <input id="win" type="radio"  name="os">
+                <label for="win">Windows</label>
+            </div>
+            <div>
+                <input id="mac" type="radio" name="os">
+                <label for="mac">mac</label>
+            </div>
+            <div>
+                <input id="li" type="radio" name="os" >
+                <label  for="li">links</label>
+            </div>
+            <hr>
+            <div>
+                <input id="win1" type="checkbox" checked name="os">
+                <label for="win1">Windows</label>
+            </div>
+            <div>
+                <input id="mac1" type="checkbox" name="os">
+                <label for="mac1">mac</label>
+            </div>
+            <div>
+                <input id="li1" type="checkbox" name="os" >
+                <label  for="li1">links</label>
+            </div>
+            <hr>
+            <div>
+                <label for="books">Choose Book</label>
+                <select name="books" id="books">
+                    <optgroup label="selfing since">
+                        <option value="1">book1</option>
+                        <option value="2">book2</option>
+                        <option value="3">book3</option>
+                    </optgroup>
+                    <optgroup label="dents">
+                        <option value="4">book4</option>
+                        <option value="5">book5</option>
+                        <option selected value="6">book6</option>
+                    </optgroup>
+                </select>
+            </div>
+            <hr>
+            <div class="dating">
+                <div>
+                    <input name="date" type="date">
+                </div>
+                <hr>
+                <div>
+                    <input name="month" type="month">
+                </div>
+                <hr>
+                <div>
+                    <input name="time" type="time">
+                </div>
+            </div>
+            <hr>
+            <div>
+                <label for="ta">What is ur problem</label>
+            </div>
+            <br>
+            <div>
+                <textarea name="ta" cols="138%" id="ta" rows="20" placeholder="Write here ur problem"></textarea>
+            </div>
+        </div>
+    </form>
+    <br>
+    <br>
+    <hr>
+    <div>
+        <a target="_blank" class="page" style="color:black" href="index.html">index</a>
+        <a target="_blank" class="page" style="color:blue" href="lol.html">lol</a>
+        <a target="_blank" class="page" style="color:red" href="audio&vedio.html">audio&vedio</a>
+        <a target="_blank" class="page" style="color:violet" href="form.html">Form</a>
+        <a target="_blank" class="page" style="color:seagreen" href="hm.html">Testing</a>
+    </div>
+</body>
+</html>

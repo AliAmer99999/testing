@@ -1,0 +1,40 @@
+.big-div
+{
+    background-image: url(media\ad.jpg);
+}
+.page
+{
+    text-decoration: none;
+}
+.aud
+{
+    width: 90%;
+    margin: 20px;
+    padding: 30px;
+}
+ .div-v1 
+ {
+    padding: 0 0 0 190px;
+ }
+ .div-v2
+ {
+    padding: 0 0 0 190px;
+ }
+ .footer
+ {
+    
+ }
+ .au
+ {
+    padding: 155px 0 0 0
+ }
+.senda
+{
+    display: block;
+    width: 150px;
+    height : 100px;
+}
+.lb
+{
+    display: block;
+}
